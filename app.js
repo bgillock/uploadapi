@@ -35,7 +35,7 @@ app.post('/upload/*', function(req, res) {
     });
 });
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, world!').end();
+  res.status(200).send('Hello, world2!').end();
 });
 
 // Start the server
